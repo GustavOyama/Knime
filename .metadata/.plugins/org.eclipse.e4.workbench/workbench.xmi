@@ -576,6 +576,8 @@
       <children xmi:id="_Rr3y5FjAEeqEwKStLZp64A" elementId="org.eclipse.debug.ui.debugging" name="Debugging" description="Debugging programs">
         <children xmi:id="_Rr3y5VjAEeqEwKStLZp64A" elementId="org.eclipse.debug.ui.memory.abstractasynctablerendering" name="In Table Memory Rendering" description="In Table Memory Rendering"/>
       </children>
+      <children xmi:id="_LZeHg1i9Eequo8MqYrYCZA" elementId="org.eclipse.birt.report.designer.internal.ui.editors.parts.graphicaleditorwithflyoutpalette.context" name="reportdesignereditpart.context"/>
+      <children xmi:id="_LZeHhFi9Eequo8MqYrYCZA" elementId="org.eclipse.datatools.sqltools.schemaobjecteditor.schemaediting" name="Schema Object Editor" description="Schema Object Editor"/>
     </children>
     <children xmi:id="_Rr3y5ljAEeqEwKStLZp64A" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.ui.workbench" name="In Dialogs" description="A dialog is open"/>
   </rootContext>
