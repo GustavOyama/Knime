@@ -1,3 +1,7 @@
+jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan
+jdbc:sqlserver://<host>:<port>/<database_name>
+jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+jdbc:sqlite://<host>:<port>/<database_name>
 jdbc:sqlite:C:\Users\GOyama01\Documents\GitHub\Knime\Example Workflows\TheData\Misc\WebActivity.sqlite
 jdbc:sqlite:/Users/knime/Desktop/Server_Course/webdatanew.sql
 jdbc:sqlite:C:\Users\Vincenzo\knime-workspace__courses\Example Workflows\TheData\Misc\WebActivity.sqlite

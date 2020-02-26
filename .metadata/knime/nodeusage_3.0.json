@@ -1,0 +1,29 @@
+
+{
+    "version":"3.7.2.v201904170949",
+    "created":"2020-02-26 13:49",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.database.connectors.sqlserver.SQLServerConnectorNodeFactory#Microsoft SQL Server Connector",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":3053133,
+    "workflowsOpened":6,
+    "remoteWorkflowsOpened":0,
+    "launches":1,
+    "lastApplicationID":"org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart":3053133,
+    "crashes":0,
+    "properlyShutDown":false
+}

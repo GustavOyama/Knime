@@ -1732,3 +1732,512 @@ FROM
 2020-02-26 13:53:47,350 : DEBUG : ModalContext : WorkflowManager :  :  : Loaded workflow from "C:\Users\GOyama01\Documents\GitHub\Knime\workflow_group\TestWorkflow"  with no errors
 2020-02-26 13:53:47,360 : DEBUG : main : ProjectWorkflowMap :  :  : Adding "file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/" to project map (1 in total)
 2020-02-26 13:53:47,360 : DEBUG : main : ProjectWorkflowMap :  :  : registering org.knime.workbench.editor2.WorkflowEditor@175c4ae5 to file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/. 1 registered clients now.
+2020-02-26 13:59:39,063 : INFO  : KNIME-Server-Login-on-http://public-server.knime.com:80/tomee/ejb : ServerContext :  :  : Login request for user 'knime-guest'
+2020-02-26 13:59:39,601 : INFO  : KNIME-Server-Login-on-http://public-server.knime.com:80/tomee/ejb : ServerContext :  :  : Created initial context for server http://public-server.knime.com:80/tomee/ejb
+2020-02-26 13:59:41,261 : INFO  : KNIME-Server-Login-on-http://public-server.knime.com:80/tomee/ejb : ServerContext :  :  : You are logged in on KNIME Server 4.6.0 as user 'knime-guest'.
+2020-02-26 14:18:35,389 : DEBUG : main : WorkflowRootEditPart :  :  : WorkflowRootEditPart deactivated
+2020-02-26 14:18:35,390 : DEBUG : main : WorkflowEditor :  :  : Disposing editor...
+2020-02-26 14:18:35,391 : DEBUG : main : ProjectWorkflowMap :  :  : unregistering org.knime.workbench.editor2.WorkflowEditor@175c4ae5 from file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/. 0 left.
+2020-02-26 14:18:35,391 : DEBUG : main : ProjectWorkflowMap : TestWorkflow : 0 : Removing "file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/" from project map (0 remaining)
+2020-02-26 14:18:35,391 : DEBUG : main : WorkflowManager : TestWorkflow : 0 : Removing project "TestWorkflow 0"
+2020-02-26 14:18:35,393 : DEBUG : main : WorkflowManager : TestWorkflow : 0 : Project "TestWorkflow 0" removed (1 remaining)
+2020-02-26 14:39:44,288 : DEBUG : main : WorkflowEditor :  :  : Creating WorkflowEditor...
+2020-02-26 14:39:44,291 : DEBUG : main : WorkflowEditor :  :  : creating editor actions...
+2020-02-26 14:39:44,308 : DEBUG : main : WorkflowEditor :  :  : Initializing editor UI...
+2020-02-26 14:39:44,308 : DEBUG : main : WorkflowEditor :  :  : Opening workflow Editor on workflow.knime
+2020-02-26 14:39:44,308 : DEBUG : main : WorkflowEditor :  :  : Setting input into editor...
+2020-02-26 14:39:44,308 : DEBUG : main : WorkflowEditor :  :  : Resource File's project: file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/
+2020-02-26 14:39:44,325 : DEBUG : ModalContext : WorkflowManager :  :  : Loading workflow from "C:\Users\GOyama01\Documents\GitHub\Knime\workflow_group\TestWorkflow" (version "V3070" with loader class "FileWorkflowPersistor")
+2020-02-26 14:39:44,326 : DEBUG : ModalContext : WorkflowManager :  :  : Created subworkflow 0
+2020-02-26 14:39:44,327 : DEBUG : ModalContext : WorkflowManager :  :  : Loaded workflow from "C:\Users\GOyama01\Documents\GitHub\Knime\workflow_group\TestWorkflow"  with no errors
+2020-02-26 14:39:44,337 : DEBUG : main : ProjectWorkflowMap :  :  : Adding "file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/" to project map (1 in total)
+2020-02-26 14:39:44,338 : DEBUG : main : ProjectWorkflowMap :  :  : registering org.knime.workbench.editor2.WorkflowEditor@4aab04cf to file:/C:/Users/GOyama01/Documents/GitHub/Knime/workflow_group/TestWorkflow/. 1 registered clients now.
+2020-02-26 14:40:06,229 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:40:06,230 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:40:06,230 : WARN  : main : Node : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver (com.microsoft.sqlserver.jdbc.SQLServerDriver)
+instead of org.sqlite.JDBC
+2020-02-26 14:40:06,230 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:40:06,230 : WARN  : main : Node : Microsoft SQL Server Connector : 0:1 : No credentials or username for authentication given
+2020-02-26 14:40:06,230 : DEBUG : main : WorkflowManager :  :  : Added new node 0:1
+2020-02-26 14:40:06,230 : DEBUG : main : NodeContainer :  :  : Setting dirty flag on TestWorkflow 0
+2020-02-26 14:40:06,231 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:1;old=null;new=Microsoft SQL Server Connector 0:1 (IDLE);timestamp=Feb 26, 2020 2:40:06 PM]
+2020-02-26 14:40:06,231 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: IDLE
+2020-02-26 14:40:06,232 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=WORKFLOW_DIRTY;node=0;old=null;new=null;timestamp=Feb 26, 2020 2:40:06 PM]
+2020-02-26 14:40:06,245 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2020-02-26 14:40:06,246 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Microsoft SQL Server Connector 0:1 (IDLE) )
+2020-02-26 14:40:06,256 : DEBUG : KNIME-Node-Usage-Writer : NodeTimer$GlobalNodeStats :  :  : Successfully wrote node usage stats to file: C:\Users\GOyama01\Documents\GitHub\Knime\.metadata\knime\nodeusage_3.0.json
+2020-02-26 14:40:07,393 : INFO  : AWT-EventQueue-0 : StringHistory : Microsoft SQL Server Connector : 0:1 : History file 'C:\Users\GOyama01\Documents\GitHub\Knime\.metadata\knime\history_org.knime.database.connectors.sqlserver.SQLServerConnectorNodeDialog_parameter    .txt' does not exist.
+2020-02-26 14:40:07,430 : INFO  : AWT-EventQueue-0 : StringHistory : Microsoft SQL Server Connector : 0:1 : History file 'C:\Users\GOyama01\Documents\GitHub\Knime\.metadata\knime\history_org.knime.database.connectors.sqlserver.SQLServerConnectorNodeDialog_hostname.txt' does not exist.
+2020-02-26 14:40:07,433 : INFO  : AWT-EventQueue-0 : StringHistory : Microsoft SQL Server Connector : 0:1 : History file 'C:\Users\GOyama01\Documents\GitHub\Knime\.metadata\knime\history_org.knime.database.connectors.sqlserver.SQLServerConnectorNodeDialog_databaseName.txt' does not exist.
+2020-02-26 14:40:07,590 : DEBUG : main : DataContainer : Microsoft SQL Server Connector : 0:1 : Setting max cell count to be held in memory to 300000000
+2020-02-26 14:40:07,590 : DEBUG : main : DataContainer : Microsoft SQL Server Connector : 0:1 : Setting asynchronous write cache to 75000 row(s)
+2020-02-26 14:40:07,785 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:21,766 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:21,773 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:21,773 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:21,786 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:21,786 : DEBUG : main : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:21,790 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:43:21,791 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:43:21,791 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : TestWorkflow 0 has new state: CONFIGURED
+2020-02-26 14:43:23,432 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:23,433 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:23,433 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:23,437 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:43:23,437 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : clean output ports.
+2020-02-26 14:43:23,437 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: IDLE
+2020-02-26 14:43:23,441 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:23,441 : DEBUG : main : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:23,445 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:43:23,445 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:43:25,741 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2020-02-26 14:43:25,741 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_MARKEDFOREXEC
+2020-02-26 14:43:25,743 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_QUEUED
+2020-02-26 14:43:25,744 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: EXECUTING
+2020-02-26 14:43:25,744 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2020-02-26 14:43:25,745 : DEBUG : KNIME-Worker-9 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePreExecution
+2020-02-26 14:43:25,745 : DEBUG : KNIME-Worker-9 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: PREEXECUTE
+2020-02-26 14:43:25,745 : DEBUG : KNIME-Worker-9 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforeExecution
+2020-02-26 14:43:25,746 : DEBUG : KNIME-Worker-9 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: EXECUTING
+2020-02-26 14:43:25,747 : DEBUG : KNIME-Worker-9 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Adding handler dde49a61-8e69-4286-8213-cf04210935ee (Microsoft SQL Server Connector 0:1: <no directory>) - 1 in total
+2020-02-26 14:43:25,747 : DEBUG : KNIME-Worker-9 : LocalNodeExecutionJob : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 Start execute
+2020-02-26 14:43:25,747 : DEBUG : KNIME-Worker-9 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:25,756 : DEBUG : KNIME-Worker-9 : NodeContext : Microsoft SQL Server Connector : 0:1 : Workflow user found: GOyama01
+2020-02-26 14:43:25,756 : DEBUG : KNIME-Worker-9 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Try to lock key to obtain connection: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name, wf-user=GOyama01]
+2020-02-26 14:43:25,756 : DEBUG : KNIME-Worker-9 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Create new connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name, wf-user=GOyama01]
+2020-02-26 14:43:25,756 : DEBUG : KNIME-Worker-9 : DatabaseDriverLoader : Microsoft SQL Server Connector : 0:1 : Searching database driver in classpath:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:25,757 : DEBUG : KNIME-Worker-9 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Loading driver from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:25,757 : DEBUG : KNIME-Worker-9 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Driver loaded from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:25,757 : DEBUG : KNIME-Worker-9 : PriorityDriverFactory : Microsoft SQL Server Connector : 0:1 : DB driver: com.microsoft.sqlserver.jdbc.SQLServerDriver found in driver factory: org.knime.database.connectors.sqlserver.utility.SQLServerDriverFactory. Driver info: Driver class name: com.microsoft.sqlserver.jdbc.SQLServerDriver major version: 6 minor version: 2 jdbc compliant: true
+2020-02-26 14:43:25,761 : DEBUG : pool-4-thread-2 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Opening database connection to "jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name"...
+2020-02-26 14:43:25,873 : DEBUG : KNIME-Worker-9 : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:43:25,873 : ERROR : KNIME-Worker-9 : Node : Microsoft SQL Server Connector : 0:1 : Execute failed: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:ff013931-c716-4d21-a577-9b5986807ce4
+2020-02-26 14:43:25,873 : DEBUG : KNIME-Worker-9 : Node : Microsoft SQL Server Connector : 0:1 : Execute failed: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:ff013931-c716-4d21-a577-9b5986807ce4
+java.sql.SQLException: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:ff013931-c716-4d21-a577-9b5986807ce4
+	at org.knime.database.connectors.sqlserver.SQLServerConnectorNodeModel.execute(SQLServerConnectorNodeModel.java:132)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:567)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1186)
+	at org.knime.core.node.Node.execute(Node.java:973)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:179)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:ff013931-c716-4d21-a577-9b5986807ce4
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:256)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:108)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4290)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3157)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:82)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3121)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1687)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1528)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:866)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:569)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.createConnection(CachedConnectionFactory.java:351)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.createConnection(CachedConnectionFactory.java:332)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory$1.call(CachedConnectionFactory.java:223)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory$1.call(CachedConnectionFactory.java:1)
+	at org.knime.core.util.ThreadUtils$CallableWithContextImpl.callWithContext(ThreadUtils.java:344)
+	at org.knime.core.util.ThreadUtils$CallableWithContext.call(ThreadUtils.java:244)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-26 14:43:25,874 : DEBUG : KNIME-Worker-9 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePostExecution
+2020-02-26 14:43:25,874 : DEBUG : KNIME-Worker-9 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: POSTEXECUTE
+2020-02-26 14:43:25,874 : DEBUG : KNIME-Worker-9 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doAfterExecute - failure
+2020-02-26 14:43:25,874 : DEBUG : KNIME-Worker-9 : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:43:25,874 : DEBUG : KNIME-Worker-9 : Node : Microsoft SQL Server Connector : 0:1 : clean output ports.
+2020-02-26 14:43:25,875 : DEBUG : KNIME-Worker-9 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Removing handler dde49a61-8e69-4286-8213-cf04210935ee (Microsoft SQL Server Connector 0:1: <no directory>) - 0 remaining
+2020-02-26 14:43:25,875 : DEBUG : KNIME-Worker-9 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: IDLE
+2020-02-26 14:43:25,875 : DEBUG : KNIME-Worker-9 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:25,875 : DEBUG : KNIME-Worker-9 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:25,880 : DEBUG : KNIME-Worker-9 : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:43:25,880 : DEBUG : KNIME-Worker-9 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:43:25,880 : DEBUG : KNIME-Worker-9 : NodeContainer : Microsoft SQL Server Connector : 0:1 : TestWorkflow 0 has new state: CONFIGURED
+2020-02-26 14:43:25,881 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2020-02-26 14:43:28,426 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:52,365 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:52,367 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:52,367 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:52,371 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:43:52,371 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : clean output ports.
+2020-02-26 14:43:52,371 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: IDLE
+2020-02-26 14:43:52,375 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:52,375 : DEBUG : main : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:52,379 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:43:52,379 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:43:53,994 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2020-02-26 14:43:53,994 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_MARKEDFOREXEC
+2020-02-26 14:43:53,994 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_QUEUED
+2020-02-26 14:43:53,995 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: EXECUTING
+2020-02-26 14:43:53,995 : DEBUG : KNIME-Worker-10 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePreExecution
+2020-02-26 14:43:53,995 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2020-02-26 14:43:53,995 : DEBUG : KNIME-Worker-10 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: PREEXECUTE
+2020-02-26 14:43:53,995 : DEBUG : KNIME-Worker-10 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforeExecution
+2020-02-26 14:43:53,996 : DEBUG : KNIME-Worker-10 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: EXECUTING
+2020-02-26 14:43:53,996 : DEBUG : KNIME-Worker-10 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Adding handler e16d3659-d710-4e3b-a3e4-48620543f606 (Microsoft SQL Server Connector 0:1: <no directory>) - 1 in total
+2020-02-26 14:43:53,996 : DEBUG : KNIME-Worker-10 : LocalNodeExecutionJob : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 Start execute
+2020-02-26 14:43:53,997 : DEBUG : KNIME-Worker-10 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:54,004 : DEBUG : KNIME-Worker-10 : NodeContext : Microsoft SQL Server Connector : 0:1 : Workflow user found: GOyama01
+2020-02-26 14:43:54,004 : DEBUG : KNIME-Worker-10 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Try to lock key to obtain connection: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name, wf-user=GOyama01]
+2020-02-26 14:43:54,004 : DEBUG : KNIME-Worker-10 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Create new connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name, wf-user=GOyama01]
+2020-02-26 14:43:54,004 : DEBUG : KNIME-Worker-10 : DatabaseDriverLoader : Microsoft SQL Server Connector : 0:1 : Searching database driver in classpath:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:54,005 : DEBUG : KNIME-Worker-10 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Loading driver from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:54,005 : DEBUG : KNIME-Worker-10 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Driver loaded from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:54,005 : DEBUG : KNIME-Worker-10 : PriorityDriverFactory : Microsoft SQL Server Connector : 0:1 : DB driver: com.microsoft.sqlserver.jdbc.SQLServerDriver found in driver factory: org.knime.database.connectors.sqlserver.utility.SQLServerDriverFactory. Driver info: Driver class name: com.microsoft.sqlserver.jdbc.SQLServerDriver major version: 6 minor version: 2 jdbc compliant: true
+2020-02-26 14:43:54,005 : DEBUG : pool-4-thread-2 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Opening database connection to "jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name"...
+2020-02-26 14:43:54,035 : DEBUG : KNIME-Worker-10 : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:43:54,035 : ERROR : KNIME-Worker-10 : Node : Microsoft SQL Server Connector : 0:1 : Execute failed: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:51e8163f-705e-40e5-8698-3965f1d606f9
+2020-02-26 14:43:54,036 : DEBUG : KNIME-Worker-10 : Node : Microsoft SQL Server Connector : 0:1 : Execute failed: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:51e8163f-705e-40e5-8698-3965f1d606f9
+java.sql.SQLException: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:51e8163f-705e-40e5-8698-3965f1d606f9
+	at org.knime.database.connectors.sqlserver.SQLServerConnectorNodeModel.execute(SQLServerConnectorNodeModel.java:132)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:567)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1186)
+	at org.knime.core.node.Node.execute(Node.java:973)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:179)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:51e8163f-705e-40e5-8698-3965f1d606f9
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:256)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:108)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4290)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3157)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:82)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3121)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1687)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1528)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:866)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:569)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.createConnection(CachedConnectionFactory.java:351)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.createConnection(CachedConnectionFactory.java:332)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory$1.call(CachedConnectionFactory.java:223)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory$1.call(CachedConnectionFactory.java:1)
+	at org.knime.core.util.ThreadUtils$CallableWithContextImpl.callWithContext(ThreadUtils.java:344)
+	at org.knime.core.util.ThreadUtils$CallableWithContext.call(ThreadUtils.java:244)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-26 14:43:54,036 : DEBUG : KNIME-Worker-10 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePostExecution
+2020-02-26 14:43:54,036 : DEBUG : KNIME-Worker-10 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: POSTEXECUTE
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doAfterExecute - failure
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : Node : Microsoft SQL Server Connector : 0:1 : clean output ports.
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Removing handler e16d3659-d710-4e3b-a3e4-48620543f606 (Microsoft SQL Server Connector 0:1: <no directory>) - 0 remaining
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: IDLE
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:43:54,037 : DEBUG : KNIME-Worker-10 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:43:54,042 : DEBUG : KNIME-Worker-10 : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:43:54,042 : DEBUG : KNIME-Worker-10 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:43:54,042 : DEBUG : KNIME-Worker-10 : NodeContainer : Microsoft SQL Server Connector : 0:1 : TestWorkflow 0 has new state: CONFIGURED
+2020-02-26 14:43:54,042 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2020-02-26 14:44:03,657 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2020-02-26 14:44:03,658 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_MARKEDFOREXEC
+2020-02-26 14:44:03,658 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_QUEUED
+2020-02-26 14:44:03,658 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: EXECUTING
+2020-02-26 14:44:03,658 : DEBUG : KNIME-Worker-11 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePreExecution
+2020-02-26 14:44:03,659 : DEBUG : KNIME-Worker-11 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: PREEXECUTE
+2020-02-26 14:44:03,659 : DEBUG : KNIME-Worker-11 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforeExecution
+2020-02-26 14:44:03,659 : DEBUG : KNIME-Worker-11 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: EXECUTING
+2020-02-26 14:44:03,659 : DEBUG : KNIME-Worker-11 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Adding handler 222c286d-c7db-4e9b-a24d-791d6dd41d84 (Microsoft SQL Server Connector 0:1: <no directory>) - 1 in total
+2020-02-26 14:44:03,659 : DEBUG : KNIME-Worker-11 : LocalNodeExecutionJob : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 Start execute
+2020-02-26 14:44:03,659 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2020-02-26 14:44:03,659 : DEBUG : KNIME-Worker-11 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:44:03,667 : DEBUG : KNIME-Worker-11 : NodeContext : Microsoft SQL Server Connector : 0:1 : Workflow user found: GOyama01
+2020-02-26 14:44:03,667 : DEBUG : KNIME-Worker-11 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Try to lock key to obtain connection: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name, wf-user=GOyama01]
+2020-02-26 14:44:03,667 : DEBUG : KNIME-Worker-11 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Create new connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name, wf-user=GOyama01]
+2020-02-26 14:44:03,667 : DEBUG : KNIME-Worker-11 : DatabaseDriverLoader : Microsoft SQL Server Connector : 0:1 : Searching database driver in classpath:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:03,667 : DEBUG : KNIME-Worker-11 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Loading driver from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:03,668 : DEBUG : KNIME-Worker-11 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Driver loaded from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:03,668 : DEBUG : KNIME-Worker-11 : PriorityDriverFactory : Microsoft SQL Server Connector : 0:1 : DB driver: com.microsoft.sqlserver.jdbc.SQLServerDriver found in driver factory: org.knime.database.connectors.sqlserver.utility.SQLServerDriverFactory. Driver info: Driver class name: com.microsoft.sqlserver.jdbc.SQLServerDriver major version: 6 minor version: 2 jdbc compliant: true
+2020-02-26 14:44:03,668 : DEBUG : pool-4-thread-2 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Opening database connection to "jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name"...
+2020-02-26 14:44:03,703 : DEBUG : KNIME-Worker-11 : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:44:03,703 : ERROR : KNIME-Worker-11 : Node : Microsoft SQL Server Connector : 0:1 : Execute failed: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:309c971e-37f6-4890-b858-76932372e05f
+2020-02-26 14:44:03,703 : DEBUG : KNIME-Worker-11 : Node : Microsoft SQL Server Connector : 0:1 : Execute failed: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:309c971e-37f6-4890-b858-76932372e05f
+java.sql.SQLException: Could not create connection to database: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:309c971e-37f6-4890-b858-76932372e05f
+	at org.knime.database.connectors.sqlserver.SQLServerConnectorNodeModel.execute(SQLServerConnectorNodeModel.java:132)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:567)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1186)
+	at org.knime.core.node.Node.execute(Node.java:973)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:179)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:110)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:328)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:204)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Cannot open database "bd_name" requested by the login. The login failed. ClientConnectionId:309c971e-37f6-4890-b858-76932372e05f
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:258)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:256)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:108)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:4290)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:3157)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$100(SQLServerConnection.java:82)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:3121)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7151)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:2478)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:2026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1687)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1528)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:866)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:569)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.createConnection(CachedConnectionFactory.java:351)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory.createConnection(CachedConnectionFactory.java:332)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory$1.call(CachedConnectionFactory.java:223)
+	at org.knime.core.node.port.database.connection.CachedConnectionFactory$1.call(CachedConnectionFactory.java:1)
+	at org.knime.core.util.ThreadUtils$CallableWithContextImpl.callWithContext(ThreadUtils.java:344)
+	at org.knime.core.util.ThreadUtils$CallableWithContext.call(ThreadUtils.java:244)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePostExecution
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: POSTEXECUTE
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doAfterExecute - failure
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : Node : Microsoft SQL Server Connector : 0:1 : clean output ports.
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Removing handler 222c286d-c7db-4e9b-a24d-791d6dd41d84 (Microsoft SQL Server Connector 0:1: <no directory>) - 0 remaining
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: IDLE
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:03,704 : DEBUG : KNIME-Worker-11 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_name
+2020-02-26 14:44:03,708 : DEBUG : KNIME-Worker-11 : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:44:03,708 : DEBUG : KNIME-Worker-11 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:44:03,708 : DEBUG : KNIME-Worker-11 : NodeContainer : Microsoft SQL Server Connector : 0:1 : TestWorkflow 0 has new state: CONFIGURED
+2020-02-26 14:44:03,708 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2020-02-26 14:44:22,523 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:27,505 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan
+2020-02-26 14:44:27,512 : DEBUG : AWT-EventQueue-0 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan
+2020-02-26 14:44:27,512 : DEBUG : AWT-EventQueue-0 : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:27,520 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : reset
+2020-02-26 14:44:27,520 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : clean output ports.
+2020-02-26 14:44:27,520 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: IDLE
+2020-02-26 14:44:27,523 : DEBUG : main : SQLServerDriverDetector : Microsoft SQL Server Connector : 0:1 : Using Microsoft SQL Server Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:27,523 : DEBUG : main : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan
+2020-02-26 14:44:27,526 : DEBUG : main : Node : Microsoft SQL Server Connector : 0:1 : Configure succeeded. (Microsoft SQL Server Connector)
+2020-02-26 14:44:27,526 : DEBUG : main : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED
+2020-02-26 14:44:28,946 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2020-02-26 14:44:28,946 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_MARKEDFOREXEC
+2020-02-26 14:44:28,946 : DEBUG : main : NodeContainer :  :  : Microsoft SQL Server Connector 0:1 has new state: CONFIGURED_QUEUED
+2020-02-26 14:44:28,947 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: EXECUTING
+2020-02-26 14:44:28,947 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2020-02-26 14:44:28,947 : DEBUG : KNIME-Worker-12 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePreExecution
+2020-02-26 14:44:28,947 : DEBUG : KNIME-Worker-12 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: PREEXECUTE
+2020-02-26 14:44:28,947 : DEBUG : KNIME-Worker-12 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforeExecution
+2020-02-26 14:44:28,947 : DEBUG : KNIME-Worker-12 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: EXECUTING
+2020-02-26 14:44:28,948 : DEBUG : KNIME-Worker-12 : WorkflowDataRepository : Microsoft SQL Server Connector : 0:1 : Adding handler 6e289992-bc54-4a19-bc06-e5d777019ae4 (Microsoft SQL Server Connector 0:1: <no directory>) - 1 in total
+2020-02-26 14:44:28,948 : DEBUG : KNIME-Worker-12 : LocalNodeExecutionJob : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 Start execute
+2020-02-26 14:44:28,948 : DEBUG : KNIME-Worker-12 : SQLServerConnectorNodeModel : Microsoft SQL Server Connector : 0:1 : Using jdbc url: jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : NodeContext : Microsoft SQL Server Connector : 0:1 : Workflow user found: GOyama01
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Try to lock key to obtain connection: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Create new connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : DatabaseDriverLoader : Microsoft SQL Server Connector : 0:1 : Searching database driver in classpath:com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Loading driver from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : DefaultDBDriverFactory : Microsoft SQL Server Connector : 0:1 : Driver loaded from DB factory: com.microsoft.sqlserver.jdbc.SQLServerDriver
+2020-02-26 14:44:28,956 : DEBUG : KNIME-Worker-12 : PriorityDriverFactory : Microsoft SQL Server Connector : 0:1 : DB driver: com.microsoft.sqlserver.jdbc.SQLServerDriver found in driver factory: org.knime.database.connectors.sqlserver.utility.SQLServerDriverFactory. Driver info: Driver class name: com.microsoft.sqlserver.jdbc.SQLServerDriver major version: 6 minor version: 2 jdbc compliant: true
+2020-02-26 14:44:28,956 : DEBUG : pool-4-thread-2 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Opening database connection to "jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan"...
+2020-02-26 14:44:28,996 : DEBUG : KNIME-Worker-12 : RegisteredDriversConnectionFactory : Microsoft SQL Server Connector : 0:1 : Add connection to map for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:44:28,996 : DEBUG : KNIME-Worker-12 : NodeContext : Microsoft SQL Server Connector : 0:1 : Workflow user found: GOyama01
+2020-02-26 14:44:28,996 : DEBUG : KNIME-Worker-12 : DatabaseConnectionSettings : Microsoft SQL Server Connector : 0:1 : Try to lock key for stmt execution: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:44:28,997 : DEBUG : KNIME-Worker-12 : DatabaseConnectionSettings : Microsoft SQL Server Connector : 0:1 : Check connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:44:29,069 : INFO  : KNIME-Worker-12 : LocalNodeExecutionJob : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 End execute (0 secs)
+2020-02-26 14:44:29,070 : DEBUG : KNIME-Worker-12 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doBeforePostExecution
+2020-02-26 14:44:29,070 : DEBUG : KNIME-Worker-12 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: POSTEXECUTE
+2020-02-26 14:44:29,070 : DEBUG : KNIME-Worker-12 : WorkflowManager : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 doAfterExecute - success
+2020-02-26 14:44:29,070 : DEBUG : KNIME-Worker-12 : NodeContainer : Microsoft SQL Server Connector : 0:1 : Microsoft SQL Server Connector 0:1 has new state: EXECUTED
+2020-02-26 14:44:29,070 : DEBUG : KNIME-Worker-12 : NodeContainer : Microsoft SQL Server Connector : 0:1 : TestWorkflow 0 has new state: EXECUTED
+2020-02-26 14:44:29,071 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2020-02-26 14:44:34,090 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:35,350 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:44,579 : WARN  : main : Node : Database Reader : 0:2 : No query configured.
+2020-02-26 14:44:44,579 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=0:2;old=null;new=Database Reader 0:2 (IDLE);timestamp=Feb 26, 2020 2:44:44 PM]
+2020-02-26 14:44:44,579 : DEBUG : main : WorkflowManager :  :  : Added new node 0:2
+2020-02-26 14:44:44,580 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: IDLE
+2020-02-26 14:44:44,584 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeAnnotationEditPart(  )
+2020-02-26 14:44:44,584 : DEBUG : main : WorkflowRootEditPart :  :  : part: NodeContainerEditPart( Database Reader 0:2 (IDLE) )
+2020-02-26 14:44:44,585 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:46,817 : DEBUG : main : NodeContainerEditPart :  :  : Database Reader 0:2 (IDLE)
+2020-02-26 14:44:46,817 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:47,850 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:47,851 : DEBUG : main : NodeContainerEditPart :  :  : Database Reader 0:2 (IDLE)
+2020-02-26 14:44:49,081 : DEBUG : main : NodeContainerEditPart :  :  : Database Reader 0:2 (IDLE)
+2020-02-26 14:44:49,081 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:50,805 : DEBUG : main : CreateConnectionCommand :  :  : adding connection from 0:1 1 to 0:2 1
+2020-02-26 14:44:50,811 : WARN  : main : Node : Database Reader : 0:2 : No query configured.
+2020-02-26 14:44:50,811 : DEBUG : main : WorkflowManager :  :  : Added new connection from node 0:1(1) to node 0:2(1)
+2020-02-26 14:44:50,811 : DEBUG : KNIME-Workflow-Notifier : WorkflowEditor :  :  : Workflow event triggered: WorkflowEvent [type=CONNECTION_ADDED;node=null;old=null;new=STD[0:1(1) -> 0:2( 1)];timestamp=Feb 26, 2020 2:44:50 PM]
+2020-02-26 14:44:50,816 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:1(1) -> 0:2( 1)]
+2020-02-26 14:44:50,816 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: bendpoints: 
+2020-02-26 14:44:50,816 : DEBUG : main : ConnectionContainerEditPart :  :  : refreshing visuals for: STD[0:1(1) -> 0:2( 1)]
+2020-02-26 14:44:50,816 : DEBUG : main : ConnectionContainerEditPart :  :  : modelling info: bendpoints: 
+2020-02-26 14:44:52,019 : DEBUG : main : NodeContainerEditPart :  :  : Microsoft SQL Server Connector 0:1 (EXECUTED)
+2020-02-26 14:44:52,019 : DEBUG : main : NodeContainerEditPart :  :  : Database Reader 0:2 (IDLE)
+2020-02-26 14:45:37,181 : WARN  : main : WrappedNodeDialog : Database Reader : 0:2 : failed to apply settings: Database table place holder (#table#) not replaced.
+2020-02-26 14:45:37,182 : DEBUG : main : WrappedNodeDialog : Database Reader : 0:2 : failed to apply settings: Database table place holder (#table#) not replaced.
+org.knime.core.node.InvalidSettingsException: Database table place holder (#table#) not replaced.
+	at org.knime.base.node.io.database.DBReaderNodeModel.validateSettings(DBReaderNodeModel.java:372)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:636)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:921)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:888)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:1745)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1002)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:260)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:624)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:539)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.access$8(WrappedNodeDialog.java:537)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:475)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:182)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:872)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:780)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:351)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:194)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:137)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1069)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:527)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:231)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:291)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:518)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:197)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:144)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+2020-02-26 14:46:12,904 : DEBUG : main : Node : Database Reader : 0:2 : Configure succeeded. (Database Reader)
+2020-02-26 14:46:12,905 : DEBUG : main : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: CONFIGURED
+2020-02-26 14:46:12,905 : DEBUG : main : NodeContainer : Database Reader : 0:2 : TestWorkflow 0 has new state: CONFIGURED
+2020-02-26 14:46:13,759 : DEBUG : main : Node : Database Reader : 0:2 : reset
+2020-02-26 14:46:13,759 : DEBUG : main : Node : Database Reader : 0:2 : clean output ports.
+2020-02-26 14:46:13,760 : DEBUG : main : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: IDLE
+2020-02-26 14:46:13,763 : DEBUG : main : Node : Database Reader : 0:2 : Configure succeeded. (Database Reader)
+2020-02-26 14:46:13,763 : DEBUG : main : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: CONFIGURED
+2020-02-26 14:46:15,643 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2020-02-26 14:46:15,643 : DEBUG : main : NodeContainer :  :  : Database Reader 0:2 has new state: CONFIGURED_MARKEDFOREXEC
+2020-02-26 14:46:15,643 : DEBUG : main : NodeContainer :  :  : Database Reader 0:2 has new state: CONFIGURED_QUEUED
+2020-02-26 14:46:15,643 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: EXECUTING
+2020-02-26 14:46:15,644 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2020-02-26 14:46:15,644 : DEBUG : KNIME-Worker-13 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doBeforePreExecution
+2020-02-26 14:46:15,644 : DEBUG : KNIME-Worker-13 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: PREEXECUTE
+2020-02-26 14:46:15,644 : DEBUG : KNIME-Worker-13 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doBeforeExecution
+2020-02-26 14:46:15,644 : DEBUG : KNIME-Worker-13 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: EXECUTING
+2020-02-26 14:46:15,645 : DEBUG : KNIME-Worker-13 : WorkflowDataRepository : Database Reader : 0:2 : Adding handler c8e861b5-b112-4fca-9295-dceaed0b2602 (Database Reader 0:2: <no directory>) - 2 in total
+2020-02-26 14:46:15,645 : DEBUG : KNIME-Worker-13 : LocalNodeExecutionJob : Database Reader : 0:2 : Database Reader 0:2 Start execute
+2020-02-26 14:46:15,658 : DEBUG : KNIME-Worker-13 : NodeContext : Database Reader : 0:2 : Workflow user found: GOyama01
+2020-02-26 14:46:15,658 : DEBUG : KNIME-Worker-13 : RegisteredDriversConnectionFactory : Database Reader : 0:2 : Try to lock key to obtain connection: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:46:15,658 : DEBUG : KNIME-Worker-13 : RegisteredDriversConnectionFactory : Database Reader : 0:2 : Connection found for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:46:15,661 : DEBUG : KNIME-Worker-13 : RegisteredDriversConnectionFactory : Database Reader : 0:2 : Valid connection found in cache with key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:46:15,661 : DEBUG : KNIME-Worker-13 : NodeContext : Database Reader : 0:2 : Workflow user found: GOyama01
+2020-02-26 14:46:15,661 : DEBUG : KNIME-Worker-13 : DatabaseConnectionSettings : Database Reader : 0:2 : Try to lock key for stmt execution: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:46:15,661 : DEBUG : KNIME-Worker-13 : DatabaseConnectionSettings : Database Reader : 0:2 : Check connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:46:15,663 : DEBUG : KNIME-Worker-13 : DBReaderImpl : Database Reader : 0:2 : Executing SQL statement as executeQuery: SELECT * FROM ctr_unid
+2020-02-26 14:46:15,666 : DEBUG : KNIME-Worker-13 : DBReaderImpl : Database Reader : 0:2 : Reading meta data from database ResultSet...
+2020-02-26 14:46:15,668 : DEBUG : KNIME-Worker-13 : DBReaderImpl : Database Reader : 0:2 : Parsing database ResultSet...
+2020-02-26 14:46:15,702 : DEBUG : KNIME-Worker-13 : Buffer : Database Reader : 0:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2020-02-26 14:46:15,704 : INFO  : KNIME-Worker-13 : DBReaderNodeModel : Database Reader : 0:2 : The result table at port 0 contains no rows
+2020-02-26 14:46:15,704 : WARN  : KNIME-Worker-13 : Node : Database Reader : 0:2 : Node created an empty data table.
+2020-02-26 14:46:15,704 : INFO  : KNIME-Worker-13 : LocalNodeExecutionJob : Database Reader : 0:2 : Database Reader 0:2 End execute (0 secs)
+2020-02-26 14:46:15,704 : DEBUG : KNIME-Worker-13 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doBeforePostExecution
+2020-02-26 14:46:15,704 : DEBUG : KNIME-Worker-13 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: POSTEXECUTE
+2020-02-26 14:46:15,705 : DEBUG : KNIME-Worker-13 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doAfterExecute - success
+2020-02-26 14:46:15,705 : DEBUG : KNIME-Worker-13 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: EXECUTED
+2020-02-26 14:46:15,705 : DEBUG : KNIME-Worker-13 : NodeContainer : Database Reader : 0:2 : TestWorkflow 0 has new state: EXECUTED
+2020-02-26 14:46:15,705 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2020-02-26 14:47:10,300 : DEBUG : main : Node : Database Reader : 0:2 : reset
+2020-02-26 14:47:10,300 : DEBUG : main : Node : Database Reader : 0:2 : clean output ports.
+2020-02-26 14:47:10,300 : DEBUG : main : WorkflowDataRepository : Database Reader : 0:2 : Removing handler c8e861b5-b112-4fca-9295-dceaed0b2602 (Database Reader 0:2: <no directory>) - 1 remaining
+2020-02-26 14:47:10,301 : DEBUG : main : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: IDLE
+2020-02-26 14:47:10,304 : DEBUG : main : Node : Database Reader : 0:2 : Configure succeeded. (Database Reader)
+2020-02-26 14:47:10,304 : DEBUG : main : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: CONFIGURED
+2020-02-26 14:47:10,304 : DEBUG : main : NodeContainer : Database Reader : 0:2 : TestWorkflow 0 has new state: CONFIGURED
+2020-02-26 14:47:11,745 : DEBUG : main : ExecuteAction :  :  : Creating execution job for 1 node(s)...
+2020-02-26 14:47:11,746 : DEBUG : main : NodeContainer :  :  : Database Reader 0:2 has new state: CONFIGURED_MARKEDFOREXEC
+2020-02-26 14:47:11,746 : DEBUG : main : NodeContainer :  :  : Database Reader 0:2 has new state: CONFIGURED_QUEUED
+2020-02-26 14:47:11,746 : DEBUG : main : NodeContainer :  :  : TestWorkflow 0 has new state: EXECUTING
+2020-02-26 14:47:11,746 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: EXECUTING
+2020-02-26 14:47:11,746 : DEBUG : KNIME-Worker-14 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doBeforePreExecution
+2020-02-26 14:47:11,746 : DEBUG : KNIME-Worker-14 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: PREEXECUTE
+2020-02-26 14:47:11,746 : DEBUG : KNIME-Worker-14 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doBeforeExecution
+2020-02-26 14:47:11,747 : DEBUG : KNIME-Worker-14 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: EXECUTING
+2020-02-26 14:47:11,747 : DEBUG : KNIME-Worker-14 : WorkflowDataRepository : Database Reader : 0:2 : Adding handler b5eb3fa2-876f-4a2b-b656-3d9737226892 (Database Reader 0:2: <no directory>) - 2 in total
+2020-02-26 14:47:11,747 : DEBUG : KNIME-Worker-14 : LocalNodeExecutionJob : Database Reader : 0:2 : Database Reader 0:2 Start execute
+2020-02-26 14:47:11,754 : DEBUG : KNIME-Worker-14 : NodeContext : Database Reader : 0:2 : Workflow user found: GOyama01
+2020-02-26 14:47:11,754 : DEBUG : KNIME-Worker-14 : RegisteredDriversConnectionFactory : Database Reader : 0:2 : Try to lock key to obtain connection: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:47:11,754 : DEBUG : KNIME-Worker-14 : RegisteredDriversConnectionFactory : Database Reader : 0:2 : Connection found for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:47:11,758 : DEBUG : KNIME-Worker-14 : RegisteredDriversConnectionFactory : Database Reader : 0:2 : Valid connection found in cache with key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:47:11,758 : DEBUG : KNIME-Worker-14 : NodeContext : Database Reader : 0:2 : Workflow user found: GOyama01
+2020-02-26 14:47:11,758 : DEBUG : KNIME-Worker-14 : DatabaseConnectionSettings : Database Reader : 0:2 : Try to lock key for stmt execution: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:47:11,758 : DEBUG : KNIME-Worker-14 : DatabaseConnectionSettings : Database Reader : 0:2 : Check connection for key: ConnectionKey [db-user=knime, db-name=jdbc:sqlserver://BRSR1SQM02:1433;databaseName=bd_dan, wf-user=GOyama01]
+2020-02-26 14:47:11,761 : DEBUG : KNIME-Worker-14 : DBReaderImpl : Database Reader : 0:2 : Executing SQL statement as executeQuery: SELECT * FROM tab_segm
+2020-02-26 14:47:11,771 : DEBUG : KNIME-Worker-14 : DBReaderImpl : Database Reader : 0:2 : Reading meta data from database ResultSet...
+2020-02-26 14:47:11,771 : DEBUG : KNIME-Worker-14 : DBReaderImpl : Database Reader : 0:2 : Parsing database ResultSet...
+2020-02-26 14:47:11,782 : DEBUG : KNIME-Worker-14 : Buffer : Database Reader : 0:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2020-02-26 14:47:11,798 : INFO  : KNIME-Worker-14 : LocalNodeExecutionJob : Database Reader : 0:2 : Database Reader 0:2 End execute (0 secs)
+2020-02-26 14:47:11,798 : DEBUG : KNIME-Worker-14 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doBeforePostExecution
+2020-02-26 14:47:11,798 : DEBUG : KNIME-Worker-14 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: POSTEXECUTE
+2020-02-26 14:47:11,798 : DEBUG : KNIME-Worker-14 : WorkflowManager : Database Reader : 0:2 : Database Reader 0:2 doAfterExecute - success
+2020-02-26 14:47:11,798 : DEBUG : KNIME-Worker-14 : NodeContainer : Database Reader : 0:2 : Database Reader 0:2 has new state: EXECUTED
+2020-02-26 14:47:11,798 : DEBUG : KNIME-Worker-14 : NodeContainer : Database Reader : 0:2 : TestWorkflow 0 has new state: EXECUTED
+2020-02-26 14:47:11,798 : DEBUG : KNIME-WFM-Parent-Notifier : NodeContainer :  :  : ROOT  has new state: IDLE
+2020-02-26 14:47:15,902 : DEBUG : main : OpenPortViewAction :  :  : Open Port View Database Reader (#1)
+2020-02-26 14:47:16,064 : DEBUG : AWT-EventQueue-0 : Buffer : Database Reader : 0:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2020-02-26 14:47:16,077 : DEBUG : AWT-EventQueue-0 : Buffer : Database Reader : 0:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2020-02-26 14:47:18,903 : DEBUG : main : NodeContainerEditPart :  :  : Database Reader 0:2 (EXECUTED)
+2020-02-26 14:47:19,263 : DEBUG : main : WorkflowEditor :  :  : Saving workflow TestWorkflow 0
+2020-02-26 14:47:19,288 : DEBUG : ModalContext : FileSingleNodeContainerPersistor : Microsoft SQL Server Connector : 0:1 : Created node directory "C:\Users\GOyama01\Documents\GitHub\Knime\workflow_group\TestWorkflow\Microsoft SQL Server Connector (#1)"
+2020-02-26 14:47:19,323 : DEBUG : ModalContext : FileSingleNodeContainerPersistor : Database Reader : 0:2 : Created node directory "C:\Users\GOyama01\Documents\GitHub\Knime\workflow_group\TestWorkflow\Database Reader (#2)"
+2020-02-26 14:47:19,335 : DEBUG : ModalContext : Buffer : Database Reader : 0:2 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2020-02-26 14:47:19,396 : DEBUG : ModalContext : LocalWorkspaceContentProvider :  :  : Refreshing "/workflow_group/TestWorkflow"
